@@ -10,7 +10,9 @@ public class helloworld {
 	@RequestMapping("/hello")
 	public String  hello() {
 	
-		return "Hello world -- edit made outside STS";
+
+		return "Hello world -- edit made outside STS after merge";
+
 	}
 
 }
